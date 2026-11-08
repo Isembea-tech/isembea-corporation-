@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071a20">
+  <meta name="description" content="ISEMBEA CORPORATION is an independent technology initiative exploring software, digital systems, and thoughtful digital experiences.">
+  <meta name="keywords" content="Isembea, Isembea Corporation, technology, software, Isembea OS">
+  <meta property="og:title" content="ISEMBEA CORPORATION">
+  <meta property="og:description" content="Building ideas. Engineering possibilities.">
+  <meta property="og:type" content="website">
+  <title>ISEMBEA CORPORATION | Building ideas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Isembea Corporation home">
+      <span class="brand-mark">I.</span><span>ISEMBEA <b>CORPORATION</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#home" data-i18n="navHome">Home</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#technology" data-i18n="navTechnology">Technology</a>
+      <a href="#updates" data-i18n="navUpdates">Updates</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="utility-btn" id="languageToggle" aria-label="Change language">TH</button>
+      <button class="utility-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">☼</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">INDEPENDENT TECHNOLOGY INITIATIVE</span></div>
+        <h1 data-i18n="heroTitle">Building ideas.<br>Engineering possibilities.</h1>
+        <p class="hero-lead" data-i18n="heroLead">An independent technology initiative exploring software, web-based operating systems, AI, and thoughtful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects" data-i18n="explore">Explore projects <span>↗</span></a>
+          <a class="text-link" href="#about" data-i18n="discover">Discover Isembea</a>
+        </div>
+        <div class="hero-meta"><span>DESIGN</span><i></i><span>SOFTWARE</span><i></i><span>RESEARCH</span><span class="founded">EST. 2018</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract Isembea visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core-glow"></div>
+        <div class="core-card"><span class="core-symbol">I.</span><span class="core-caption">IDEAS INTO SYSTEMS</span><span class="core-index">26—</span></div>
+        <div class="art-label label-top">DIGITAL SYSTEMS</div>
+        <div class="art-label label-bottom">CREATIVE TECHNOLOGY</div>
+        <div class="art-cross">+</div>
+      </div>
+      <div class="scroll-note"><span></span><span data-i18n="scroll">SCROLL TO EXPLORE</span></div>
+    </section>
+
+    <section class="intro-strip section-wrap">
+      <p data-i18n="intro">A place for ideas to become experiments, products, and new ways to interact with technology.</p>
+      <span>01 / 06</span>
+    </section>
+
+    <section class="content-section section-wrap" id="about">
+      <div class="section-kicker"><span>01</span><span data-i18n="who">WHO WE ARE</span></div>
+      <div class="section-grid">
+        <h2 data-i18n="aboutTitle">Curiosity drives<br>what comes next.</h2>
+        <div class="section-copy"><p data-i18n="aboutText">ISEMBEA is an independent technology initiative focused on exploring ideas through software, interface design, and practical experimentation.</p><p data-i18n="aboutText2">We believe useful technology begins with curiosity, clear thinking, and the willingness to build, test, and improve.</p></div>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="projects">
+      <div class="section-kicker"><span>02</span><span data-i18n="selected">SELECTED PROJECTS</span></div>
+      <div class="section-heading"><h2 data-i18n="projectsTitle">Made to explore.<br>Built to evolve.</h2><p data-i18n="projectsLead">A growing collection of experiments and digital products.</p></div>
+      <div class="project-grid">
+        <a class="project-card project-featured" href="https://isembea-tech.github.io/Isembea-os-26.7/" target="_blank" rel="noopener">
+          <div class="project-visual os-visual"><span class="visual-chip">01 / SOFTWARE</span><div class="os-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="os-mark">I.</div><div class="os-lines"><b></b><b></b><b></b></div></div><span class="visual-word">ISEMBEA OS</span></div>
+          <div class="project-info"><div><h3>Isembea OS 26.7</h3><p data-i18n="osDesc">A web-based operating system interface experiment.</p></div><span class="arrow">↗</span></div>
+        </a>
+        <a class="project-card" href="https://github.com/Isembea-tech" target="_blank" rel="noopener">
+          <div class="project-visual lab-visual"><span class="visual-chip">02 / RESEARCH</span><div class="lab-rings"><span></span><span></span><span></span></div><span class="visual-word">TECH LAB</span></div>
+          <div class="project-info"><div><h3>Isembea Tech Lab</h3><p data-i18n="labDesc">Experiments, prototypes, and ongoing development.</p></div><span class="arrow">↗</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="technology-section" id="technology">
+      <div class="section-wrap tech-inner">
+        <div class="section-kicker"><span>03</span><span data-i18n="approach">OUR APPROACH</span></div>
+        <div class="tech-layout"><h2 data-i18n="techTitle">Technology with<br>room to think.</h2><div class="tech-list">
+          <div><span>01</span><h3>Software & Systems</h3><p data-i18n="tech1">Building useful digital tools and connected experiences.</p></div>
+          <div><span>02</span><h3>Interface & Experience</h3><p data-i18n="tech2">Exploring clarity, usability, and expressive visual design.</p></div>
+          <div><span>03</span><h3>Research & Experiment</h3><p data-i18n="tech3">Testing ideas, learning from results, and iterating.</p></div>
+        </div></div>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap updates-section" id="updates">
+      <div class="section-kicker"><span>04</span><span data-i18n="updatesKicker">LATEST DIRECTION</span></div>
+      <div class="updates-card"><div><span class="update-tag">ISEMBEA / JOURNAL</span><h2 data-i18n="updatesTitle">The next chapter<br>starts with a question.</h2><p data-i18n="updatesText">Follow the work as ideas turn into prototypes, interfaces, and new releases.</p></div><a class="button button-outline" href="https://github.com/Isembea-tech" target="_blank" rel="noopener" data-i18n="follow">Follow development ↗</a></div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="section-kicker"><span>05</span><span data-i18n="contactKicker">GET IN TOUCH</span></div>
+      <div class="contact-layout"><h2 data-i18n="contactTitle">Have an idea?<br>Let's connect.</h2><div><p data-i18n="contactText">For project updates and development, visit our public GitHub space.</p><a class="contact-link" href="https://github.com/Isembea-tech" target="_blank" rel="noopener">GitHub / Isembea-tech <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="brand footer-brand" href="#home"><span class="brand-mark">I.</span><span>ISEMBEA <b>CORPORATION</b></span></a><span>© <span id="year"></span> ISEMBEA CORPORATION</span><a href="#home" data-i18n="backTop">BACK TO TOP ↑</a></footer>
+</body>
+</html>
